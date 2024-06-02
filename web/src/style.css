@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.map-root {
+    width: 100vw;
+    height: 100vh;
+}
+
+#airbnbFilterForm {
+    position: fixed;
+    width: 300px;
+    background-color: white;
+    z-index: 999;
+    border-radius: 1em;
+    bottom: 1em;
+    left: 1em;
+    padding: 1em;
+    font-family: sans-serif;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#airbnbFilterForm label {
+    display: block;
+    margin-bottom: 0.2em;
+}
+
+#airbnbFilterForm select {
+    display: block;
+    margin-bottom: 0.6em;
+    width: 100%;
+}
+
+#airbnbFilterForm input {
+    display: block;
+    margin-bottom: 0.6em;
+    width: 100%;
+}
+
+.overlay-mode-container {
+    display: flex;
+    gap: 8px;
+}
+
+.overlay-mode-container > button {
+    flex: 1;
+}

@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New York Airbnb Helper</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form id="airbnbFilterForm">
+    <div class="overlay-mode-container">
+      <label>Overlay Mode:</label>
+      <button id="overlayMode">OFF</button>
+    </div>
+    <label for="neighborhood">Neighborhood</label>
+    <select id="neighborhood">
+      <option value="all">All Neighborhoods</option>
+    </select>
+
+    <label for="roomType">Room Type</label>
+    <select id="roomType">
+      <option value="all">All Room Types</option>
+    </select>
+
+    <label for="minPrice">Minimum Price</label>
+    <input type="number" id="minPrice" placeholder="Min Price">
+
+    <label for="maxPrice">Maximum Price</label>
+    <input type="number" id="maxPrice" placeholder="Max Price">
+
+  </form>
+  <div id="map-root" class="map-root"></div>
+  <script src="./index.js" type="module"></script>
+</body>
+
+</html>

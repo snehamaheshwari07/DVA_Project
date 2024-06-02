@@ -1,0 +1,19 @@
+{
+    "name": "web",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html --public-url ./"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "leaflet": "^1.9.4"
+    },
+    "devDependencies": {
+        "@types/leaflet": "^1.9.7",
+        "parcel": "^2.10.0",
+        "parcel-transformer-csv": "^0.0.3"
+    }
+}
